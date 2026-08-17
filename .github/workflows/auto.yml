@@ -33,5 +33,5 @@ jobs:
           git add .
           git commit -m "Auto update playlist" || echo "No changes"
           git push
-       env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        env:
+         GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
